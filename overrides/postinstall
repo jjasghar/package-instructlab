@@ -3,7 +3,6 @@ echo "Post installation process started"
 
 echo "Install binary symlink"
 ln -si "/Library/InstructLab/InstructLab.app/Contents/MacOS/InstructLab" /usr/local/bin/ilab
-ln -si "/Library/InstructLab/InstructLab.app/Contents/Resources/app_packages/bin/ilab-bar" /usr/local/bin/ilab-bar
 
 /usr/local/bin/ilab-bar &
 echo "Post installation process finished"

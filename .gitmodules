@@ -1,6 +1,3 @@
 [submodule "src/instructlab"]
 	path = src/instructlab
 	url = https://github.com/instructlab/instructlab.git
-[submodule "src/ilab-bar"]
-	path = src/ilab-bar
-	url = https://github.com/jjasghar/ilab-bar
