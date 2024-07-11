@@ -20,6 +20,7 @@ updates to existing LLMs in an accessible way.
 """
 sources = [
     "src/instructlab/src/instructlab",
+    "src/ilab-bar/ilab_bar/",
 ]
 test_sources = [
     "src/instructlab/tests",
@@ -28,6 +29,7 @@ test_sources = [
 console_app = true
 requires = [
     "git+https://github.com/instructlab/instructlab.git@stable",
+    "git+https://github.com/jjasghar/ilab-bar.git@v1.0.0",
 ]
 test_requires = [
     "pytest",
