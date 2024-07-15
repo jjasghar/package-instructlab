@@ -11,3 +11,5 @@ chmod +x build/instructlab/macos/app/installer/scripts/postinstall
 
 briefcase build
 briefcase package macOS --adhoc-sign
+#briefcase package macOS
+
