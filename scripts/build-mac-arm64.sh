@@ -15,6 +15,5 @@ cp -f overrides/postinstall build/instructlab/macos/app/installer/scripts
 chmod +x build/instructlab/macos/app/installer/scripts/postinstall
 
 briefcase build
-briefcase package macOS --identity 9513220CA1EAF778B3A9CF47591D349D60EE0677
-briefcase package macOS --installer-identity D8596223E82222CED00F89C4AA8458AB883ACE86
-mv dist/* InstructLab-${PROCESSOR}-${VERSON}.pkg
+briefcase package macOS --identity "Developer ID Application: Jonathan Asghar (94J7FVM977)" --installer-identity "Developer ID Installer: Jonathan Asghar (94J7FVM977)"
+mv dist/* dist/InstructLab-${PROCESSOR}-${VERSION}.pkg
